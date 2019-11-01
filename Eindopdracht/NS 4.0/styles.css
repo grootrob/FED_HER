@@ -321,6 +321,8 @@ h2 {
 
 }
 
+/*Paginafooter styling*/
+
 .pagefooter {
     background-color: #ffffff;
     box-shadow: 0 0.15rem 0 0 rgba(7, 7, 33, .15);
@@ -661,6 +663,8 @@ section form input[type=submit] + input[type=submit] {
 }
 
 
+/*bestellen form*/
+
 .bestellen input[type=email],
 input[type=password],
 input[type=text] {
@@ -781,6 +785,8 @@ section form input[type=submit] + input[type=submit] {
     margin-top: 2em !important;
 
 }
+
+/*Nieuwsbrief form*/
 
 .nieuwsbrief {
     margin-bottom: 3.5em;
