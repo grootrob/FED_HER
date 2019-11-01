@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>99 Verhalen van Molovich</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
-    <script src="js/script.js"></script>
+
 </head>
 
 
@@ -19,6 +19,7 @@
                         <a href="index.html">
                             <img src="https://www.ns.nl/static/generic/2.38.0/images/nslogo.svg" alt="Homepage">
                             <h1>Stories</h1>
+                            <!--Dit is het NS logo ingeladen met de link die de NS zelf ook gebruikt-->
                         </a>
                     </li>
                     <li>
@@ -46,60 +47,59 @@
 
             <form>
                 <span>99 verhalen van Molovich</span>
-                <h3>Zoek een verhaal</h1>
+                <h3>Zoek een verhaal</h3>
 
 
+                <fieldset>
+                    <legend>Genre</legend>
 
-                    <fieldset>
-                        <legend>Genre</legend>
+                    <input type="checkbox" id="check" class="check-with-label" />
+                    <label for="check" class="label-for-check">Vrolijk<span>(13)</span></label>
 
-                        <input type="checkbox" id="check" class="check-with-label" />
-                        <label for="check" class="label-for-check">Vrolijk<span>(13)</span></label>
+                    <input type="checkbox" id="check2" class="check-with-label" />
+                    <label for="check2" class="label-for-check">Spanning<span>(13)</span></label>
 
-                        <input type="checkbox" id="check2" class="check-with-label" />
-                        <label for="check2" class="label-for-check">Spanning<span>(13)</span></label>
+                    <input type="checkbox" id="check3" class="check-with-label" />
+                    <label for="check3" class="label-for-check">Comedie<span>(13)</span></label>
 
-                        <input type="checkbox" id="check3" class="check-with-label" />
-                        <label for="check3" class="label-for-check">Comedie<span>(13)</span></label>
+                    <input type="checkbox" id="check4" class="check-with-label" />
+                    <label for="check4" class="label-for-check">Verward<span>(13)</span></label>
 
-                        <input type="checkbox" id="check4" class="check-with-label" />
-                        <label for="check4" class="label-for-check">Verward<span>(13)</span></label>
+                    <input type="checkbox" id="check5" class="check-with-label" />
+                    <label for="check5" class="label-for-check">Avontuur<span>(13)</span></label>
 
-                        <input type="checkbox" id="check5" class="check-with-label" />
-                        <label for="check5" class="label-for-check">Avontuur<span>(13)</span></label>
+                    <input type="checkbox" id="check6" class="check-with-label" />
+                    <label for="check6" class="label-for-check">Fictief<span>(13)</span></label>
 
-                        <input type="checkbox" id="check6" class="check-with-label" />
-                        <label for="check6" class="label-for-check">Fictief<span>(13)</span></label>
+                    <input type="checkbox" id="check7" class="check-with-label" />
+                    <label for="check7" class="label-for-check">Politiek<span>(13)</span></label>
 
-                        <input type="checkbox" id="check7" class="check-with-label" />
-                        <label for="check7" class="label-for-check">Politiek<span>(13)</span></label>
+                    <input type="checkbox" id="check8" class="check-with-label" />
+                    <label for="check8" class="label-for-check">Zweverig<span>(13)</span></label>
 
-                        <input type="checkbox" id="check8" class="check-with-label" />
-                        <label for="check8" class="label-for-check">Zweverig<span>(13)</span></label>
+                    <input type="checkbox" id="check9" class="check-with-label" />
+                    <label for="check9" class="label-for-check">Verhalend<span>(13)</span></label>
 
-                        <input type="checkbox" id="check9" class="check-with-label" />
-                        <label for="check9" class="label-for-check">Verhalend<span>(13)</span></label>
+                </fieldset>
 
-                    </fieldset>
+                <fieldset class="leestijd">
+                    <legend>Leestijd<span> in minuten</span></legend>
 
-                    <fieldset class="leestijd">
-                        <legend>Leestijd<span> in minuten</span></legend>
+                    <input type="checkbox" id="4" class="check-with-label" />
+                    <label for="4" class="label-for-check">0-4<span> minuten</span></label>
 
-                        <input type="checkbox" id="4" class="check-with-label" />
-                        <label for="4" class="label-for-check">0-4<span> minuten</span></label>
+                    <input type="checkbox" id="6" class="check-with-label" />
+                    <label for="6" class="label-for-check">4-6<span> minuten</span></label>
 
-                        <input type="checkbox" id="6" class="check-with-label" />
-                        <label for="6" class="label-for-check">4-6<span> minuten</span></label>
+                    <input type="checkbox" id="8" class="check-with-label" />
+                    <label for="8" class="label-for-check">6-8<span> minuten</span></label>
 
-                        <input type="checkbox" id="8" class="check-with-label" />
-                        <label for="8" class="label-for-check">6-8<span> minuten</span></label>
-
-                        <input type="checkbox" id="10" class="check-with-label" />
-                        <label for="10" class="label-for-check">8-10<span> minuten</span></label>
+                    <input type="checkbox" id="10" class="check-with-label" />
+                    <label for="10" class="label-for-check">8-10<span> minuten</span></label>
 
 
-                    </fieldset>
-                    <input type="submit" value="Toon 18 resultaten">
+                </fieldset>
+                <input type="submit" value="Toon 18 resultaten">
             </form>
 
         </div>
@@ -110,15 +110,23 @@
 
             <article class="verderlezen">
 
-                <img alt="" src="images/alzheimer.jpg">
+                <img alt="" src="images/Aangevallnen-04.png">
                 <div class='content'>
-                    <h4>Alzheimer</h4>
+                    <h4>Gesponsord</h4>
 
                     <p>Ik stap uit, euh…Hoe heet het? Zo’n vervoerdinges op wielen. Van de gemeente. Wit met blauw. Lijn 12. Of was het 21? Ik weet het niet.</p>
-                    <footer>10 min - Verward - 4 sterren</footer>
+                    <footer>
+                        <!--
+                        <ul>
+                            <li>15 min</li>
+                            <li>Spanning</li>
+                            <li>287 keer gelezen</li>
+                        </ul>
+-->
+                    </footer>
                     <ul>
                         <li>
-                            <a href='#' class='leesmeer'>Lees dit verhaal</a>
+                            <a href='/detail.html' class='leesmeer'>Lees dit verhaal</a>
                         </li>
                         <li><img alt="Download button" src="images/download.svg"> </li>
                         <li><img alt="Favoriet button" src="images/favoriet.svg"> </li>
@@ -274,6 +282,7 @@
                         </li>
                         <li><img alt="Download button" src="images/download.svg"> </li>
                         <li><img alt="Favoriet button" src="images/favoriet.svg"> </li>
+
                     </ul>
 
                 </div>
@@ -281,8 +290,37 @@
             </article>
 
 
+            <!--Nieuwsbrief-->
+
+            <article class="nieuwsbrief">
+
+                <form name="nieuwsbriefForm" action="bedankt.html">
+                    <fieldset class="gegevens">
+                        <h2>Inschrijven voor nieuwsbrief</h2>
+                        <label><b>Voornaam</b>
+                            <input type="text" placeholder="Vul hier uw voornaam in" name="voornaam" required>
+                        </label>
+                        <label><b>Achternaam</b>
+                            <input type="text" placeholder="Vul hier uw achternaam in" name="achternaam" required>
+                        </label>
+                        <label><b>E-mailadres</b>
+                            <input type="email" placeholder="Vul hier uw emailadres in" name="email" required>
+                        </label>
+
+                        <input type="submit" name="fname" value="Inschrijven >" class="bestelknop">
+
+                    </fieldset>
+
+
+                </form>
+
+            </article>
+
+
         </section>
 
+
+        <script src="script.js"></script>
     </main>
     <footer class="pagefooter">
         <div class="container">
@@ -290,22 +328,10 @@
                 <li>
                     <a href="index.html">
                         <img src="https://www.ns.nl/static/generic/2.38.0/images/nslogo.svg" alt="Homepage">
+
+
                     </a>
                 </li>
-                <li>
-                    <a href="#">Zoeken</a>
-                </li>
-                <li>
-                    <a href="#">
-                        Opgeslagen
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Favorieten
-                    </a>
-                </li>
-                <li><a href="inlog.html">Mijn account</a></li>
             </ul>
         </div>
     </footer>
