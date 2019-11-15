@@ -53,6 +53,10 @@ header {
     margin-right: auto;
 }
 
+.nslogo {
+    width: 3rem;
+}
+
 nav ul {
     list-style: none;
     display: flex;
