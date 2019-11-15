@@ -791,7 +791,16 @@ section form input[type=submit] + input[type=submit] {
 /*Nieuwsbrief form*/
 
 .nieuwsbrief {
-    margin-bottom: 3.5em;
+    margin-bottom: em;
+}
+
+.opvulling {
+    display: none;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(images/1920_18-09-09lineupsprinters.jpg);
+    background-size: cover;
+    padding-bottom: 2.1rem;
 }
 
 
@@ -947,6 +956,14 @@ fieldset {
         margin-left: auto;
     }
 
+    .opvulling {
+        display: none;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-image: url(images/1920_18-09-09lineupsprinters.jpg);
+        background-size: cover;
+        padding-bottom: 2.1rem;
+    }
 
     /*    inlogpagina*/
     .inlogpagina {
@@ -1012,6 +1029,15 @@ fieldset {
         .nieuwsbrief .gegevens .bestelknop {
             margin-top: 1rem;
 
+        }
+
+        .opvulling {
+            display: block;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-image: url(images/1920_18-09-09lineupsprinters.jpg);
+            background-size: cover;
+            padding-bottom: 2.1rem;
         }
 
     }
