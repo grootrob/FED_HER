@@ -455,6 +455,14 @@ input[type=checkbox]:checked + .label-for-check {
     color: #003082;
 }
 
+main {
+    transition: 0.6s ease max-height;
+}
+
+.filters {
+    transition: 0.6s ease max-height;
+}
+
 .containerform {
     background-color: #FFC917;
     height: 100%;
@@ -463,11 +471,13 @@ input[type=checkbox]:checked + .label-for-check {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 0.6s ease max-height;
 }
 
 #overzicht form fieldset {
     border: none;
     width: 100%;
+    transition: 0.6s ease max-height;
 }
 
 #overzicht form fieldset:nth-of-type(2) {
