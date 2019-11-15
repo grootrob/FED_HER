@@ -455,9 +455,6 @@ input[type=checkbox]:checked + .label-for-check {
     color: #003082;
 }
 
-main {
-    transition: 0.6s ease max-height;
-}
 
 .filters {
     transition: 0.6s ease max-height;
@@ -477,7 +474,8 @@ main {
 #overzicht form fieldset {
     border: none;
     width: 100%;
-    transition: 0.6s ease max-height;
+    transition: all .8s ease-in-out;
+
 }
 
 #overzicht form fieldset:nth-of-type(2) {
@@ -742,8 +740,6 @@ form input[type=password]:focus {
     border-left: 2px blue solid;
 }
 
-}
-
 form input:required {
     border-left-color: palegreen;
 }
@@ -751,6 +747,7 @@ form input:required {
 form input:valid {
     border-left-color: salmon;
 }
+
 
 
 
